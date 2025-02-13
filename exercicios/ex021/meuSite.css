@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Calina';
+    src: url(fontes/Calina.otf) format(opentype), url(fontes/Calina.ttf) format(truetype);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    font-family: "Outfit", serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 65px;
+}
+
+#logoSite{
+    padding-left: 50px;
+}
+
+#dashboard{
+    padding-right: 49px;
+    font-size: 16px;
+}
+
+a{
+    padding: 24px;
+}
+
+#dashboard > a{
+    color: white;
+    text-decoration: none;
+    padding-right: 16px;
+}
+
+#dashboard > a:hover{
+    color: #3ACBB9;
+    text-decoration: underline;
+}
+
+main{
+    display: block;
+    margin-top: 15%;
+    padding: 30px;
+}
+
+h1{
+    font-family: 'Calina';
+    font-size: 150px;
+    padding-left: 3.5%;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.identificacao{
+    color: #0A0000;
+    padding-bottom: 10px;
+    padding-left: 3.5%;
+}
+
+#obs{
+    font-size: 32px;
+    width: 900px;
+    color: #495867;
+    padding-left: 2%;
+    margin: 16px 16px 0px 16px;
+}
+
+h2{
+    padding: 80px 0px;
+}
+
+.paragrafo{
+    color: #495867;
+    line-height: 32px;
+    padding-bottom: 30px;
+}
+
+article{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sobre{
+    padding: 0px 3% 3% 3%;
+    flex: 1;
+    max-width: 50%;
+}
+
+footer{
+    background-color: #141518;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    color: #DADEE3;
+}
+
+#linksFooter > a{
+    color: white;
+    font-size:14px;
+    text-decoration: none;
+}
+
+#linksFooter > a:hover{
+    text-decoration: underline;
+}
+
