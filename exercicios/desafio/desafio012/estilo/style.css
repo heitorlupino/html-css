@@ -32,11 +32,12 @@ header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 8.5vw;
+    font-size: 7vw;
 }
 
 header > p{
     padding-bottom: 50px;
+    font-size: 2vw;
 }
 
 header a, footer a{
@@ -50,16 +51,16 @@ header a:hover, footer a:hover{
 }
 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 2.7vw;
 }
 
 section > p{
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 section.normal{
@@ -80,6 +81,7 @@ section.imagem > p{
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.507);
     text-shadow: 1px 1px 0px black;
+    border-radius: 10px;
 }
 
 section#img01{
